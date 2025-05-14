@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Kontak Kami</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="features.html">Features</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <form class="contact-form" onsubmit="return sendMessage()">
+      <label>Nama:
+        <input type="text" name="nama" required />
+      </label>
+
+      <label>Email:
+        <input type="email" name="email" required />
+      </label>
+
+      <label>Alamat:
+        <input type="text" name="alamat" required />
+      </label>
+
+      <label>Tingkat Pendidikan:
+        <input type="text" name="tingkat_pendidikan" required />
+      </label>
+
+      <label>Minat Belajar:
+        <input type="text" name="minat" required />
+      </label>
+
+      <button type="submit">Daftar</button>
+    </form>
+  </main>
+</body>
+</html>
